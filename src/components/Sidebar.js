@@ -6,7 +6,7 @@ export default function Sidebar() {
     <>
       {!isOpen ? (
         <button
-          className="w-[50px] h-[50px] fixed items-center cursor-pointer left-6 top-6"
+          className="w-[40px] h-[40px] fixed items-center cursor-pointer left-8 top-8"
           onClick={() => setIsOpen(!isOpen)}
         >
           <svg
@@ -95,21 +95,21 @@ export default function Sidebar() {
         </button>
       )}
       <div
-        className={`top-0 left-0 fixed bg-purple-950 bg-opacity-80 md:w-[25vw] lg:w-[30vw] h-full sm:w-[50vw] p-20 
+        className={`top-0 left-0 fixed bg-[#1b132b] bg-opacity-95 md:w-[40vw] lg:w-[30vw] h-full sm:w-[50vw] p-20 pt-20
     ${
       isOpen ? "translate-x-0" : "-translate-x-full"
     } ease-in-out duration-300 `}
       >
-        <div className=" py-6">
-          <span className="grid h-10 w-32 place-content-center rounded-md opacity-100 bg-white text-xs text-gray-900">
-            Logo
+        <div className=" py-1">
+          <span className="grid h-10 w-32 place-content-center rounded-full  bg-white text-lg text-[#844e89] font-bold">
+            T P H
           </span>
 
-          <ul className=" opacity-100 mt-6 space-y-1">
+          <ul className=" opacity-100 mt-2 space-y-1">
             <li>
               <a
                 href="https://tailwindcss.com/docs/customizing-colors"
-                className="block opacity-100 px-4 py-2 text-lg font-medium text-white hover:border-b hover:text-purple-500 "
+                className="block opacity-100 px-4 py-4 text-lg font-medium text-white hover:border-b hover:text-[#844e89] "
               >
                 Home
               </a>
@@ -117,7 +117,7 @@ export default function Sidebar() {
             <li>
               <a
                 href="https://tailwindcss.com/docs/customizing-colors"
-                className="block  px-4 py-2 text-lg font-medium text-white hover:border-b hover:text-purple-500 "
+                className="block px-4 py-4 text-lg font-medium text-white hover:border-b hover:text-[#844e89] "
               >
                 About Us
               </a>
@@ -125,7 +125,7 @@ export default function Sidebar() {
             <li>
               <a
                 href="https://tailwindcss.com/docs/customizing-colors"
-                className="block  px-4 py-2 text-lg font-medium  text-white hover:border-b hover:text-purple-500 "
+                className="block  px-4 py-4 text-lg font-medium  text-white hover:border-b hover:text-[#844e89] "
               >
                 Contact Us
               </a>
@@ -133,7 +133,7 @@ export default function Sidebar() {
             <li>
               <a
                 href="https://tailwindcss.com/docs/customizing-colors"
-                className="block  px-4 py-2 text-lg font-medium  text-white hover:border-b hover:text-purple-500 "
+                className="block  px-4 py-4 text-lg font-medium  text-white hover:border-b hover:text-[#844e89] "
               >
                 Upcoming events
               </a>
@@ -141,7 +141,7 @@ export default function Sidebar() {
 
             <li>
               <details className="group [&_summary::-webkit-details-marker]:hidden">
-                <summary className="flex cursor-pointer items-center justify-between text-white px-4 py-2 hover:border-b hover:text-purple-500 ">
+                <summary className="flex cursor-pointer items-center justify-between text-white px-4 py-2 hover:border-b hover:text-[#844e89] ">
                   <span className="text-lg font-medium ">Domains</span>
 
                   <span className="shrink-0 transition duration-300 group-open:-rotate-180">
@@ -164,7 +164,7 @@ export default function Sidebar() {
                   <li>
                     <a
                       href="https://tailwindcss.com/docs/customizing-colors"
-                      className="block px-4 py-2 text-md font-medium text-white hover:border-b hover:text-purple-500 "
+                      className="block px-3 py-3 text-md font-medium text-white hover:border-b hover:text-[#844e89] "
                     >
                       Blockchain
                     </a>
@@ -173,7 +173,7 @@ export default function Sidebar() {
                   <li>
                     <a
                       href="https://tailwindcss.com/docs/customizing-colors"
-                      className="block  px-4 py-2 text-md font-medium text-white hover:border-b hover:text-purple-500 "
+                      className="block  px-3 py-3 text-md font-medium text-white hover:border-b hover:text-[#844e89] "
                     >
                       Web-Development
                     </a>
@@ -181,7 +181,7 @@ export default function Sidebar() {
                   <li>
                     <a
                       href="https://tailwindcss.com/docs/customizing-colors"
-                      className="block  px-4 py-2 text-md font-medium text-white hover:border-b hover:text-purple-500 "
+                      className="block  px-3 py-3 text-md font-medium text-white hover:border-b hover:text-[#844e89] "
                     >
                       Creatives
                     </a>
@@ -193,7 +193,7 @@ export default function Sidebar() {
             <li>
               <a
                 href="https://tailwindcss.com/docs/customizing-colors"
-                className="block  px-4 py-2 text-md font-large font-medium text-white hover:border-b hover:text-purple-500 "
+                className="block  px-4 py-4 text-md font-large font-medium text-white hover:border-b hover:text-[#844e89] "
               >
                 Privacy Policy
               </a>

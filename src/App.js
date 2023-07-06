@@ -1,6 +1,6 @@
-import "./App.css";
 import background from "./images/background.jpeg";
 import Sidebar from "./components/Sidebar";
+import Banner from "./components/Banner";
 
 function App() {
   return (
@@ -15,7 +15,9 @@ function App() {
       <div className="px-10 pt-10 ">
         <Sidebar />
         <div className="z-0">
-          <h1 className="text-4xl mt-10 text-white text-center">main</h1>
+          <div>
+            <Banner />
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,37 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@400;500&display=swap');
+
+  .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    margin-top: 8%;
+    /* font-size: 5rem; */
+    /* font-size: 2.5rem; */
+    display: block;
+    color: white;
+    text-shadow: 0 0 8px #b96bc1, 0 0 8px #b96bc1, 0 0 8px #844e89, 0 0 8px #844e89, 0 0 8px #844e89, 0 0 8px #844e89;
+  }
+  
+  @media (max-width: 768px) {
+    .heading .srmist {
+      /* font-size:1rem; */
+      font-size:5rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .heading .srmist{
+      /* font-size: 6rem; */
+      /* font-size: 6rem; */
+      text-shadow: 0 0 8px #844e89, 0 0 8px #844e89, 0 0 8px #844e89, 0 0 8px #844e89, 0 0 8px #844e89, 0 0 8px #844e89;
+    }
+  }
+
+  .srmist {
+    display: block;
+    /* font-size: 4rem; */
+    /* font-size: 1.7rem; */
+    margin-top: 1.5rem;
+    text-shadow: 0 0 8px #b96bc1, 0 0 8px #b96bc1, 0 0 8px #844e89, 0 0 8px #844e89, 0 0 8px #844e89, 0 0 8px #844e89;
+  }
